@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "name": "Check OTA State",
+      "priority": 10,
+      "action": "bin/ota-blocker.sh check"
+    },
+    {
+      "name": "Recheck OTA",
+      "priority": 15,
+      "action": "bin/ota-blocker.sh recheck"
+    },
+    {
+      "name": "Block OTA",
+      "priority": 20,
+      "action": "bin/ota-blocker.sh block"
+    },
+    {
+      "name": "Restore OTA",
+      "priority": 30,
+      "action": "bin/ota-blocker.sh restore"
+    },
+    {
+      "name": "Rescue Mode",
+      "priority": 40,
+      "action": "bin/ota-blocker.sh rescue"
+    }
+  ]
+}
